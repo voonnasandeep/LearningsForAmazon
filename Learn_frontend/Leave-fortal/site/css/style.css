@@ -222,15 +222,15 @@
     src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
   }
-body { margin:0; padding:0; font-family: 'Roboto', sans-serif; font-weight: 500;}
-img { display: inline-block; max-width: 100%;}
+body { margin:0; padding:0; font-family: 'Roboto', sans-serif; font-weight: 500; background-color: lightgrey;}
+img { display: inline-block; max-width: 100%; background-color: lightgrey;}
 .fix-wrap { width: 1170px; margin: 0 auto;}
-.header { width: 100%; float: left; padding: 15px 0 5px; border-bottom: 2px solid #333;}
+.header { width: 100%; float: left; padding: 15px 0 10px; border-bottom: 2px solid #333;}
 .logo { width:100px; float: left;}
 .nav { width: auto; float:right; padding-top: 40px;}
 .nav ul {margin: 0; padding: 0;}
 .nav ul li {margin: 0; padding: 0; list-style: none; display: inline-block; }
-.nav ul li a { display: inline-block; font-size: 14px; padding: 0 10px; text-decoration: none; color: #333;}
+.nav ul li a { display: inline-block; font-size: 14px; padding: 0 20px; text-decoration: none; color: #333;}
 .nav ul li a:hover { color: rgb(233, 109, 21);}
 
 .left-nav { width: 200px; float: left;}
@@ -245,15 +245,14 @@ img { display: inline-block; max-width: 100%;}
 .login-sec h2{text-align: center; color:rgb(233, 109, 21); font-size: 26px; margin-left: 110px; }
 .user-profile {width: 200px; float: left;}
 .form-row {padding-bottom: 20px;}
-.form-row input {padding-left: 30px;}
 .form-row label {padding-right: 20px;}
 .form-row button {padding: 5px 15px; margin: 15px 120px; font-size: 15px; background-color: rgb(223, 147, 97); font-weight: bold;}
 .mid-wrap {width: 100%; float: left; padding :0; border-bottom: 2px solid #333;}
-.footer {width: 100%; float: left; padding :0; margin: 0;}
+.footer {width: 100%; float: left; padding :0; margin: 0; }
 i {color:rgb(233, 109, 21);}
 .left-cause {width: 33%; float: left; padding: 0;}
 .left-cause img {width: 175px;}
 .direction {width: 25%; float: left;}
-.direction img {width:200px; padding: 50px;}
+.direction img {width:300px; padding:50px 20px;}
 .right-solution {width: auto; float: right;}
 .right-solution img {width: 250px; padding-left: 60px;}
