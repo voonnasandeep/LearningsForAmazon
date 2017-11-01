@@ -233,20 +233,21 @@ img { display: inline-block; max-width: 100%; background-color: lightgrey;}
 .nav ul li a { display: inline-block; font-size: 14px; padding: 0 20px; text-decoration: none; color: #333;}
 .nav ul li a:hover { color: rgb(233, 109, 21);}
 
-.left-nav { width: 200px; float: left;}
+.left-nav { width: 300px; float: left;}
 .left-nav h2 { color:rgb(233, 109, 21); font-size: 26px; margin-bottom: 15px; }
 .left-nav ul { margin: 0; padding: 10px 0 0 0;}
 .left-nav ul li {list-style: none; display: block; margin: 5px 0 10px 0; padding: 0;}
 .left-nav ul li a { display: inline-block; text-decoration: none; color: #333; margin-bottom: 15px;}
 .left-nav ul li a:hover { color: rgb(233, 109, 21);}
 
-.login-sec { width: 75%; float: right; }
-.login-form {width: auto; display: inline-block; padding: 30px 150px;}
-.login-sec h2{text-align: center; color:rgb(233, 109, 21); font-size: 26px; margin-left: 110px; }
-.user-profile {width: 200px; float: left;}
-.form-row {padding-bottom: 20px;}
+.statusAndLogin {width: 100%; float: left;}
+.login-sec { width: auto; float: right; min-height: 300px;}
+.login-form {width: auto; display: inline-block; padding-left: 15px;}
+.login-sec h2{text-align: center; color:rgb(233, 109, 21); font-size: 26px;}
+.user-profile {width: 100px; float: left;}
+.form-row {padding-bottom: 25px;}
 .form-row label {padding-right: 20px;}
-.form-row button {padding: 5px 15px; margin: 15px 120px; font-size: 15px; background-color: rgb(223, 147, 97); font-weight: bold;}
+.form-row button {padding: 5px 15px; margin: 5px 120px; font-size: 15px; background-color: rgb(223, 147, 97); font-weight: 700;}
 .mid-wrap {width: 100%; float: left; padding :0; border-bottom: 2px solid #333;}
 .footer {width: 100%; float: left; padding :0; margin: 0; }
 i {color:rgb(233, 109, 21);}
