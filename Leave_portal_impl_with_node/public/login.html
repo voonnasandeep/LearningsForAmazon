@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Amazon Leave Fortal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/render.js"></script>
+</head>
+
+<body>
+    <div class="main-wrap">
+        <div class="header">
+            <div class="fix-wrap">
+                <div class="logo">
+                    <img src="images/painted-amazon-log.png" alt="amazon logo">
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Leave Policies</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact HR</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mid-wrap">
+            <div class="fix-wrap">
+                <div class="statusAndLogin">
+                    <div class="left-nav">
+                        <h2>Leave Status</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Casual</a>
+                            </li>
+                            <li>
+                                <a href="#">Sick</a>
+                            </li>
+                            <li>
+                                <a href="#">Marriage</a>
+                            </li>
+                            <li>
+                                <a href="#">Paid</a>
+                            </li>
+                            <li>
+                                <a href="#">Childcare</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="login-sec">
+                        <h2>Amazon Employee Login</h2>
+                        <div class="user-profile">
+                            <img src="images/user-icon.png" alt="usericon">
+                        </div>
+                        <div class="login-form">
+                            <!--    <form action="/validate-login" id="loginItem" method="POST"> -->
+                            <form action="/validate-login" id="loginItem" method="POST">
+                                <div class="form-row">
+                                    <label for="username">Username</label>
+                                    <input type="text" name="username">
+                                </div>
+                                <div class="form-row">
+                                    <label for="password">Password</label>
+                                    <input type="text" name="password">
+                                </div>
+                                <div class="form-row">
+                                    <input type="checkbox">
+                                    <label for="selectcheckbox">Remember the password next time</label>
+                                </div>
+                                <div class="form-row">
+                                    <button type="submit" id="login-button">Login</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="applyLeaves">
+                        <h2>Welcome Sandeep</h2>
+                        <h3>You can apply leave instantly</h3>
+                        <form action="/applyLeave" method="POST" id="leaveApplySection">
+                            <div class="form-row">
+                                <label for="from">From</label>
+                                <input type="date" name="fromDate">
+                                <label for="to">To</label>
+                                <input type="date" name="toDate">
+                            </div>
+                            <div class="form-row">
+                                <label for="leaveType">TYPE</label>
+                                <select name="leaveCategory">
+                                    <option value="casual">Casual</option>
+                                    <option value="sick">Sick</option>
+                                    <option value="marriage">Marriage</option>
+                                    <option value="paid">Paid</option>
+                                    <option value="childcare">Childcare</option>
+                                  </select>
+                            </div>
+                            <div class="form-row">
+                                <button type="submit" id="applyLeaveBtn">Apply Leave</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="fix-wrap">
+                <div class="left-cause">
+                    <h2>
+                        <i>Bored of work ???</i>
+                    </h2>
+                    <img src="images/hectic-work.jpg" alt="hectic work image">
+                </div>
+                <div class="direction">
+                    <img src="images/painted-arrow.png" alt="direction towards right">
+                </div>
+                <div class="right-solution">
+                    <h2>
+                        <i>Don't Worry. Go for some vacation...!!</i>
+                    </h2>
+                    <img src="images/holiday.jpg" alt="holiday image">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
